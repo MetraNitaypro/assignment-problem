@@ -1,0 +1,6 @@
+﻿  Source.cpp
+  Source1.cpp
+C:\Users\artem\source\repos\Курсовик\Курсовик\Source1.cpp(8,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\artem\source\repos\Курсовик\Курсовик\Source1.cpp(13,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Курсовик.vcxproj -> C:\Users\artem\source\repos\Курсовик\x64\Debug\Курсовик.exe

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Курсач: Исходный файл C:/Users/artem/source/repos/Курсовик/Курсовик/Header.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Курсач
+   &#160;<span id="projectnumber">00</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Поиск');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_header_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Header.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iterator&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;ctime&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classrabota.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classrabota.html">rabota</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classrabota.html#aaad4979b846f71d5180347309a228618">   21</a></span>&#160;    vector&lt;vector&lt;int&gt;&gt; <a class="code" href="classrabota.html#aaad4979b846f71d5180347309a228618">table</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classrabota.html#acf24e93b5aa05c6b855f3a3044b8d19e">   25</a></span>&#160;    vector&lt;vector&lt;int&gt;&gt; <a class="code" href="classrabota.html#acf24e93b5aa05c6b855f3a3044b8d19e">result</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classrabota.html#a5536af65137753f4129a3a2e4011fa42">   29</a></span>&#160;    vector&lt;int&gt; <a class="code" href="classrabota.html#a5536af65137753f4129a3a2e4011fa42">used</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classrabota.html#a5ddd078994d5fdeed1f5f905b6ff37f0">   33</a></span>&#160;    vector&lt;int&gt; <a class="code" href="classrabota.html#a5ddd078994d5fdeed1f5f905b6ff37f0">buffer</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classrabota.html#a10d2d104d0d6e2b334586092cc54fcc2">   37</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classrabota.html#a10d2d104d0d6e2b334586092cc54fcc2">r</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classrabota.html#adf19e00a182cab14d92a05a2e502b9fe">   41</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classrabota.html#adf19e00a182cab14d92a05a2e502b9fe">prise</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classrabota.html#a929bf6d9a42698509d63d8f8d1671f9e">   45</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classrabota.html#a929bf6d9a42698509d63d8f8d1671f9e">size</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">bool</span> dfs(vector&lt;vector&lt;int&gt;&gt; &amp;a, <span class="keywordtype">int</span> v);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="classrabota.html">rabota</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> size);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">friend</span> ifstream&amp; operator&gt;&gt;(ifstream&amp; f, <a class="code" href="classrabota.html">rabota</a> &amp; r);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">friend</span> ofstream&amp; operator&lt;&lt;(ofstream&amp; f, <a class="code" href="classrabota.html">rabota</a>&amp; r);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> foo();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> foo1();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> Serb();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;};</div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="aclassrabota_html"><div class="ttname"><a href="classrabota.html">rabota</a></div><div class="ttdoc">class rabota</div><div class="ttdef"><b>Definition:</b> Header.h:16</div></div>
+<div class="ttc" id="aclassrabota_html_a929bf6d9a42698509d63d8f8d1671f9e"><div class="ttname"><a href="classrabota.html#a929bf6d9a42698509d63d8f8d1671f9e">rabota::size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definition:</b> Header.h:45</div></div>
+<div class="ttc" id="aclassrabota_html_aaad4979b846f71d5180347309a228618"><div class="ttname"><a href="classrabota.html#aaad4979b846f71d5180347309a228618">rabota::table</a></div><div class="ttdeci">vector&lt; vector&lt; int &gt; &gt; table</div><div class="ttdef"><b>Definition:</b> Header.h:21</div></div>
+<div class="ttc" id="aclassrabota_html_acf24e93b5aa05c6b855f3a3044b8d19e"><div class="ttname"><a href="classrabota.html#acf24e93b5aa05c6b855f3a3044b8d19e">rabota::result</a></div><div class="ttdeci">vector&lt; vector&lt; int &gt; &gt; result</div><div class="ttdef"><b>Definition:</b> Header.h:25</div></div>
+<div class="ttc" id="aclassrabota_html_a5536af65137753f4129a3a2e4011fa42"><div class="ttname"><a href="classrabota.html#a5536af65137753f4129a3a2e4011fa42">rabota::used</a></div><div class="ttdeci">vector&lt; int &gt; used</div><div class="ttdef"><b>Definition:</b> Header.h:29</div></div>
+<div class="ttc" id="aclassrabota_html_a10d2d104d0d6e2b334586092cc54fcc2"><div class="ttname"><a href="classrabota.html#a10d2d104d0d6e2b334586092cc54fcc2">rabota::r</a></div><div class="ttdeci">int r</div><div class="ttdef"><b>Definition:</b> Header.h:37</div></div>
+<div class="ttc" id="aclassrabota_html_a5ddd078994d5fdeed1f5f905b6ff37f0"><div class="ttname"><a href="classrabota.html#a5ddd078994d5fdeed1f5f905b6ff37f0">rabota::buffer</a></div><div class="ttdeci">vector&lt; int &gt; buffer</div><div class="ttdef"><b>Definition:</b> Header.h:33</div></div>
+<div class="ttc" id="aclassrabota_html_adf19e00a182cab14d92a05a2e502b9fe"><div class="ttname"><a href="classrabota.html#adf19e00a182cab14d92a05a2e502b9fe">rabota::prise</a></div><div class="ttdeci">int prise</div><div class="ttdef"><b>Definition:</b> Header.h:41</div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d522931ffa1371640980b621734a4381.html">Users</a></li><li class="navelem"><a class="el" href="dir_15369df40db0867f88c3d9761a2ed35d.html">artem</a></li><li class="navelem"><a class="el" href="dir_7973a588d5aa88731247181a1956b1c4.html">source</a></li><li class="navelem"><a class="el" href="dir_d903993dd89650f74b400c3ba3673229.html">repos</a></li><li class="navelem"><a class="el" href="dir_46ddebab68f44b804645b8ed6576171f.html">Курсовик</a></li><li class="navelem"><a class="el" href="dir_6b523bd44b729063ad909fc086814b33.html">Курсовик</a></li><li class="navelem"><b>Header.h</b></li>
+    <li class="footer">Создано системой <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+  </ul>
+</div>
+</body>
+</html>
